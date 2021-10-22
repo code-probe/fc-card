@@ -76,7 +76,7 @@ body {
 .feature-card {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 5px 9px hsla(0, 3%, 34%, 10%);
+  box-shadow: 5px 9px 10px 0px hsla(0, 3%, 34%, 10%);
 }
 .supervisor-container,
 .team_builder-container,
