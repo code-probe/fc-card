@@ -1,10 +1,10 @@
 :root {
   /* COLORS */
 
-  --Red: hsl(0, 93%, 47%);
-  --Cyan: hsl(180, 80%, 52%);
-  --Orange: hsl(34, 74%, 57%);
-  --Blue: hsl(212, 78%, 61%);
+  --Red: rgb(231, 8, 8);
+  --Cyan: rgb(35, 231, 231);
+  --Orange: rgb(226, 156, 64);
+  --Blue: rgb(78, 150, 233);
   --Dark-Blue: hsl(234, 12%, 34%);
   --Grayish-Blue: hsl(229, 6%, 66%);
   --Light-Gray: hsl(0, 0%, 98%);
@@ -76,7 +76,20 @@ body {
 .feature-card {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 5px 9px 10px 0px hsla(0, 3%, 34%, 10%);
+  /* box-shadow: 5px 9px 10px 0px hsla(0, 3%, 34%, 10%); */
+}
+
+.feature-card-1 {
+  box-shadow: 5px 9px 10px 0px rgba(135, 231, 231, 0.2);
+}
+.feature-card-2 {
+  box-shadow: 5px 9px 10px 0px rgba(226, 156, 64, 0.15);
+}
+.feature-card-3 {
+  box-shadow: 5px 9px 10px 0px rgba(231, 8, 8, 0.1);
+}
+.feature-card-4 {
+  box-shadow: 5px 9px 10px 0px rgba(78, 150, 233, 0.1);
 }
 .supervisor-container,
 .team_builder-container,
